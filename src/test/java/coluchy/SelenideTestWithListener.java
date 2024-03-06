@@ -14,6 +14,7 @@ public class SelenideTestWithListener {
 
     public static final String REPOSITORY = "AleksShakhmatov/HW12_Allure_Reports";
     public static final int ISSUE = 1;
+
     @Test
     public void checkNameIssueTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
