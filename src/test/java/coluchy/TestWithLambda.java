@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
+
 public class TestWithLambda {
     public static final String REPOSITORY = "AleksShakhmatov/HW12_Allure_Reports";
     public static final int ISSUE = 1;
