@@ -42,6 +42,7 @@ bin/
 .DS_Store
 
 .idea*
+.idea
 gradlew.bat
 gradlew
 settings.graddle
