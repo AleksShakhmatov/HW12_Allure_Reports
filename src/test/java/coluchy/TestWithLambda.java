@@ -16,7 +16,7 @@ public class TestWithLambda {
     public static final int ISSUE = 1;
 
     @Test
-    public void testLambdaStep() {
+    public void lambdaStepTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу", () -> {
